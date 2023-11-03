@@ -31,9 +31,38 @@ O projeto é composto por um frontend, um backend e um banco de dados SQLite3. O
 
 - A aplicação pode ser testada manualmente pelo frontend, inserindo uma data e consultando a cotação do dólar.
 
-## Como Inicializar
+  # Como Iniciar
 
-1. Clone o repositório para o seu ambiente local:
+Para executar este projeto em sua máquina local, siga estas etapas:
 
-   ```shell
-   git clone <https://github.com/MathFidelis/Kinea-riscos-dolar>
+1. **Navegue para a pasta raiz do projeto:**
+
+    No seu terminal, acesse a pasta onde o projeto está localizado.
+
+    ```bash
+    cd <Pasta-do-Projeto>
+    ```
+
+2. **Execute o Docker Compose para iniciar a aplicação:**
+
+    Use o Docker Compose para criar e iniciar os contêineres da aplicação, incluindo o frontend, backend e o banco de dados SQLite3.
+
+    ```bash
+    docker-compose up
+    ```
+
+3. **Acesse o frontend no seu navegador:**
+
+    Normalmente, você pode acessar o frontend em seu navegador digitando o seguinte endereço:
+
+    ```
+    http://localhost:<porta-escolhida>
+    ```
+
+4. **Realize uma consulta de cotação do dólar:**
+
+    No frontend, insira a data desejada e clique no botão "Consultar" para verificar a cotação do dólar.
+
+Certifique-se de ter o Docker e o Docker Compose instalados em seu sistema para iniciar a aplicação usando Docker.
+
+Agora você está pronto para usar a aplicação de cotação de dólar localmente em seu ambiente.
