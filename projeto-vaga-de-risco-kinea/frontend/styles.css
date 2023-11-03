@@ -1,0 +1,40 @@
+/* Defina a fonte padrão para a página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilize o cabeçalho h1 */
+h1 {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Centralize o input de data e o botão */
+input[type="date"], button {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilize o botão "Consultar" */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilize a área de resultados */
+#result {
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 80%;
+    text-align: center;
+}

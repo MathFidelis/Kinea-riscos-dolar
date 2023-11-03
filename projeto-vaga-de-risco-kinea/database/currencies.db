@@ -1,0 +1,8 @@
+ CREATE TABLE cotacoes (
+  id INTEGER PRIMARY KEY,
+  data TEXT,
+  moeda TEXT,
+  valor REAL
+);
+
+INSERT INTO cotacoes (data, moeda, valor) VALUES ('2023-10-30', 'USD', 5.0);
